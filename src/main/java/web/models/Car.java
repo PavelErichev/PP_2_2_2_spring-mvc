@@ -2,12 +2,12 @@ package web.models;
 
 public class Car {
     private int id;
-    private int Series;
+    private int series;
     private String model;
 
     public Car(int id, int series, String model) {
         this.id = id;
-        Series = series;
+        this.series = series;
         this.model = model;
     }
 
@@ -20,11 +20,11 @@ public class Car {
     }
 
     public int getSeries() {
-        return Series;
+        return this.series;
     }
 
     public void setSeries(int series) {
-        Series = series;
+        this.series = series;
     }
 
     public String getModel() {
